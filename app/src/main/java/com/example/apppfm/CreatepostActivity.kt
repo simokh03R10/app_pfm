@@ -183,7 +183,7 @@ class CreatepostActivity : AppCompatActivity() {
                         "description" to description,
                         "location" to location,
                         "imageUrl" to uri.toString(),
-                        "userId" to "userId", // Replace with actual user ID from Firebase Auth
+                        "userId" to auth.uid, // Replace with actual user ID from Firebase Auth
                         "timestamp" to System.currentTimeMillis()
                     )
 
@@ -220,7 +220,7 @@ class CreatepostActivity : AppCompatActivity() {
                 "description" to description,
                 "location" to location,
                 "imageUrl" to "", // Set imageUrl to an empty string if no image is uploaded
-                "userId" to "userId", // Replace with actual user ID from Firebase Auth
+                "userId" to auth.uid, // Replace with actual user ID from Firebase Auth
                 "timestamp" to System.currentTimeMillis()
             )
 
