@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953367762375",
+    "project_id": "apppfm-77133",
+    "storage_bucket": "apppfm-77133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953367762375:android:0fba1c40f79b2057d2f5e2",
+        "android_client_info": {
+          "package_name": "com.example.apppfm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDah2_xt4WM8jIwOPyu0M_BzKD3vUbSUpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
